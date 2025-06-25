@@ -55,7 +55,7 @@ This lesson will guide you through using the [HypoInverse](https://faldersons.ne
 
 ### Bonus!
 
-- Get this working with python package working: [https://github.com/xtyangpsp/HypoInvPy](https://github.com/xtyangpsp/HypoInvPy)
+- Get this python package working: [https://github.com/xtyangpsp/HypoInvPy](https://github.com/xtyangpsp/HypoInvPy)
   
 ---
 
