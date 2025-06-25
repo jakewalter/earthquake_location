@@ -6,7 +6,7 @@ This lesson will guide you through using the [HypoInverse](https://faldersons.ne
 
 ---
 
-## 🛠️ Step-by-Step Instructions
+## Step-by-Step Instructions
 
 ### 1. Download HypoInverse
 
