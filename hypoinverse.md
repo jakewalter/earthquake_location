@@ -1,4 +1,4 @@
-# Hands-On Lesson: Earthquake Location with HypoInverse
+# Earthquake Location with HypoInverse
 
 ## Overview
 
