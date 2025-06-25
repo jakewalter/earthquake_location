@@ -1,4 +1,4 @@
-# Hands on summer discussion group and class exercise for earthquake location
+# Hands-on summer discussion group and class exercise for earthquake location
 
 You are expected to complete the task (Reading/assignment completed) by the start of the date of the discussion
 
