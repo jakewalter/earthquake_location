@@ -6,12 +6,10 @@ You are expected to complete the task (Reading/assignment completed) by the star
 | --- | --- | --- | --- |
 | 1   | Th June 19 | Basic concepts and terms |  Read Shearer Chapter 5 |
 | 2   | Th June 26 | Hypoinverse | Read Hypoinverse user guide
-| 3   | T Jan 23 | HypoDD
-| 4   | Th Jan 25 | Computer: Matrices, data | #1 due/#2 assigned |
-| 5   | T Jan 30 | Waves: distance, motion, phase |     |
-| 6   | Th Feb 1 | Wave equation, P and S phases | #2 due |
-| 7   | T Feb 6 | Computer: Wave propagation, Fourier transforms | #3 assigned |
-| 8   | Th Feb 8 | Seismic waves and velocity models |     |
-| 9   | T Feb 13 | Ray tracing in 1D | #3 due |
-| 10  | Th Feb 15 | Ray tracing, velocity models | #4 assigned |
-| 11  | T Feb 20 | Inversion |     |
+| 3   | Th July 3 | HypoDD
+| 4   | Th July 10 | HypoDD with relative arrival time cross-correlation
+| 5   | Th July 17 | GrowClust
+| 6   | Th July 24 | Tips/tricks for working with large or weird datasets
+| 7   | Th July 31 | Backprojection/beamforming/migration based locations
+| 8   | Th August 7 | Nonlinloc
+| 9   | Th August 14 | Workflows (Hypoinverse -> HypoDD, etc.)
