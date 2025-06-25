@@ -5,7 +5,7 @@ You are expected to complete the task (Reading/assignment completed) by the star
 | Week | Date (approx.) | Discussion topic | Reading/Assigment completed |
 | --- | --- | --- | --- |
 | 1   | Th June 19 | Basic concepts and terms |  Read Shearer Chapter 5 |
-| 2   | Th June 26 | Hypoinverse | Read Hypoinverse user guide
+| 2   | Th June 26 | Hypoinverse [Hypoinverse guide](hypoinverse.md) | Read Hypoinverse user guide
 | 3   | Th July 3 | HypoDD
 | 4   | Th July 10 | HypoDD with relative arrival time cross-correlation
 | 5   | Th July 17 | GrowClust
