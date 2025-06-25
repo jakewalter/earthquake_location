@@ -52,6 +52,11 @@ This lesson will guide you through using the [HypoInverse](https://faldersons.ne
   - Velocity options
   - Output formats
 
+
+### Bonus!
+
+- Get this working with python package working: [https://github.com/xtyangpsp/HypoInvPy](https://github.com/xtyangpsp/HypoInvPy)
+  
 ---
 
 ## Learning Goals
