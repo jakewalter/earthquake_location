@@ -19,19 +19,14 @@ pip install .
 ## Example Usage
 
 The following script demonstrates a complete relocation workflow, from preparing the data to running the final relocation. The code is commented to explain each step.
-
+```python
 import glob
 from hypoDDpy.utils import fix_picks_catalog
 from hypoDDpy.relocator import HypoDDRelocator
 
-# Step 1: Prepare the event catalog
-# This function processes the catalog and prepares it for relocation.
 cat2 = fix_picks_catalog(cat, project_folder)
 cat2.write('catalog_fixed.xml', 'QUAKEML')
 
-# Step 2: Initialize the HypoDDRelocator
-# Set up the relocator with a working directory and cross-correlation parameters.
-# See below for a detailed breakdown of these parameters.
 relocator = HypoDDRelocator(
     working_dir="relocate1",
     cc_time_before=0.05,
@@ -44,23 +39,18 @@ relocator = HypoDDRelocator(
     cc_min_allowed_cross_corr_coeff=0.6
 )
 
-# Step 3: Add data files
-# Use glob to easily find and add all necessary files.
-# These functions can be called multiple times if files are in different locations.
 relocator.add_event_files(glob.glob("/data/proj_dir/catalog_fixed.xml"))
 relocator.add_waveform_files(glob.glob("/data/proj_dir/20*/mseed"))
 relocator.add_station_files(glob.glob("/data/proj_dir/20*.xml"))
 
-# Step 4: Configure the velocity model
-# This example uses a layered P-wave velocity model with a constant Vp/Vs ratio.
 relocator.setup_velocity_model(
     model_type="layered_p_velocity_with_constant_vp_vs_ratio",
     layer_tops=[(0, 2.7), (0.3, 2.95), (1.0, 4.15), (1.5, 5.8), (21, 6.3)],
     vp_vs_ratio=1.73
 )
 
-# Step 5: Run the relocation
-# Start the process and save the results to the specified output file.
 relocator.start_relocation(output_event_file="relocated_events.xml")
 
 print("Relocation complete! Results saved to relocated_events.xml.")
+```
+
