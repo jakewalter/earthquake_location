@@ -21,8 +21,8 @@ pip install .
 The following script demonstrates a complete relocation workflow, from preparing the data to running the final relocation. The code is commented to explain each step.
 ```python
 import glob
-from hypoDDpy.utils import fix_picks_catalog
-from hypoDDpy.relocator import HypoDDRelocator
+from easyQuake import fix_picks_catalog
+from hypoddpy import HypoDDRelocator
 
 cat2 = fix_picks_catalog(cat, project_folder)
 cat2.write('catalog_fixed.xml', 'QUAKEML')
