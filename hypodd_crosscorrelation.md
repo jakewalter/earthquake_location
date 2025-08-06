@@ -6,7 +6,7 @@ This guide provides instructions on how to install and run the `hypoDDpy` librar
 
 ## Installation
 
-To get started, clone the repository from GitHub and run the `pip` install command from within the project directory.
+To get started, clone the repository from GitHub and run the `pip` install command from within the project directory. You probably need to have a python environment that is Python>3.11
 
 ```bash
 git clone https://github.com/jakewalter/hypoDDpy.git
